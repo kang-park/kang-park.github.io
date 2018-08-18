@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokemon Hangman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="poke">Who's That Pokemon?</h1>
+                <h1>Hangman Version</h1>
+        </div>
+
+        <div class="panel-body">
+            <div class="info">
+                <h3><span class="label label-default">
+                    Type a Letter from A-Z to Start
+                </span></h3>
+            </div>
+                        
+        <p id="categoryName"></p>
+            <h2>
+                <span id="tries"></span>
+            </h2>
+            <div id="guessed">
+                Your Guesses: 
+            </div>
+            <div id="blank" class="well"></div>
+                <button id="reset" class="btn btn-lg">Play Again</button>
+        </div>
+        </div>
+        </div>
+    </div>
+    <!-- <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Who's That Pokemon?</h1>
+            <button class="play-button">
+                    <i class="fa fa-play" aria-hidden="true"></i>
+                    Play
+            </button>
+        </div>
+    </div> -->
+    <script src="./assets/javascript/game.js"></script>
+</body>
+</html>

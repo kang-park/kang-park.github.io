@@ -1,0 +1,70 @@
+body {
+    background-image: url("http://www.tickwallpaper.com/wp-content/uploads/Pokemon-75303-640x360.jpg");
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+h1, h2, h3 {
+    margin-top: 4px;
+}
+h1 {
+    font-size: 24px;
+}
+hr {
+    width: 100%;
+}
+.panel {
+    margin: 40px 0;
+}
+.panel-body {
+    padding: 0;
+}
+
+/*Title*/
+.poke {
+    color: gold;
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*Word Related*/
+
+.info {
+    margin: 15px 0;
+}
+
+#categoryName {
+    font-size: 1.8em;
+    margin: 30px 0;
+}
+
+.well {
+    margin: 40px;
+}
+#guessed {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+#word {
+    margin: 0;
+    padding: 20px;
+}
+#word li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#reset {
+    margin-bottom: 20px;
+    color: #fff;
+    background: gold;
+}
+#reset:hover {
+    background: darkgoldenrod;
+}
+
